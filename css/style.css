@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#svg-container {
+  display: block;
+  margin: auto;
+}
+
+svg {
+  border: 1px solid black;
+}
+
+.div-tooltip {
+  position: absolute;
+  text-align: center;
+  width: 170px;
+  height: 35px;
+  padding: 2px;
+  font: 14px arial;
+  background-color: #29aa47;
+  pointer-events: none;
+  border-radius: 5%;
+}
